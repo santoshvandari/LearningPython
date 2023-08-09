@@ -1,2 +1,2 @@
 from playsound import playsound
-playsound("/home/wabisabi/Desktop/Python/audio.mp3")
+playsound("/home/wabisabi/Desktop/Python/1/audio.mp3")
