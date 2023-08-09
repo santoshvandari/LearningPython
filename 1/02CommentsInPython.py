@@ -7,5 +7,5 @@ print("Comments are Single and Multi Line. '#' is used in Single line Comment. \
 I am Using Multi Line Comment in Python. 
 This is the Year of 2023 and I am currently Learning Python.
 Author: Santosh Bhandari
-License to: Self
+License to: Santosh Bhandari
 '''
