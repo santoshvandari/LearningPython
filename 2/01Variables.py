@@ -23,6 +23,8 @@ print()
 print(f"Boolean: {d}")
 print()
 print(f"Null: {e}")
+
+# Printing the Data Type of Variable
 print(type(a))
 print(type(b))
 print(type(c))
