@@ -1,3 +1,4 @@
 a=int(input("Enter First Number: "))
 b=int(input("Enter Second Numeber: "))
-print("Average of ",a," and ",b," = ",(a+b)/2)
+avg=(a+b)/2
+print("Average of ",a," and ",b," = ",avg)
