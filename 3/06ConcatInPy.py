@@ -2,9 +2,9 @@
 # result="Good Afternoon "+user
 # print(result)
 
-name=input("Enter a Name: ")
-date=input("Enter a Date: ")
-letter = f'''Dear  {name},
-          You are Selected!
-             {date}'''
-print(letter)
+# name=input("Enter a Name: ")
+# date=input("Enter a Date: ")
+# letter = f'''Dear  {name},
+#           You are Selected!
+#              {date}'''
+# print(letter)
