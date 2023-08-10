@@ -4,7 +4,7 @@
 
 name=input("Enter a Name: ")
 date=input("Enter a Date: ")
-letter = '''Dear  {name},
-                You are Selected!
-                {date}'''
+letter = f'''Dear  {name},
+          You are Selected!
+             {date}'''
 print(letter)
