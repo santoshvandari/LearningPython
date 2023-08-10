@@ -1,0 +1,10 @@
+string="hello, My name is Santosh Bhandari. I am from Jhapa Nepal."
+print(len(string))
+print(string.endswith("Jhapa"))
+print(string.endswith("Nepal"))
+print(string.find("Bhandari"))
+print(string.find("Hari"))
+print(string.replace("Santosh","Ayush"))
+print(string.upper())
+print(string.capitalize())
+print(string.count("na"))
