@@ -1,0 +1,10 @@
+m1=int(input("Enter a Marks 1: "))
+m2=int(input("Enter a Marks 2: "))
+m3=int(input("Enter a Marks 3: "))
+m4=int(input("Enter a Marks 4: "))
+m5=int(input("Enter a Marks 5: "))
+m6=int(input("Enter a Marks 6: "))
+MarkList=[m1,m2,m3,m4,m5,m6]
+print(MarkList)
+MarkList.sort()
+print(MarkList)
