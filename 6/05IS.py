@@ -1,6 +1,6 @@
 a=5
 a=None
-if(a is 5):
+if(a is None):
     print("Yes")
 else:
     print("No")
