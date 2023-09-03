@@ -8,4 +8,5 @@ else:
 
 '''
 else part will not execute if you use break keyword to get out of loop. 
+Else part will execute when the loops terminated naturally. 
 '''
