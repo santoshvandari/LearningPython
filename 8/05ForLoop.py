@@ -1,3 +1,2 @@
-nameList=["Santosh",'Ayush','Krishna',"Manish","Hari","Uttam","Shree"]
-for name in nameList:
-    print(name)
+for i in range(10):
+    print(i)
