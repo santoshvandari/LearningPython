@@ -1,2 +1,10 @@
-def Sum():
-    for i in range(arguments)
+def Sum(*num):
+    sum = 0
+    for i in range(num):
+        sum+=i
+    return sum
+
+print(Sum(1))
+print(Sum(5,6,8,10))
+print(Sum(1))
+print(Sum(1))
