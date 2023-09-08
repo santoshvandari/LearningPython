@@ -16,5 +16,5 @@ else:
     com="g"
 
 you = input("Your Turn: Choose Snake(s),Water(w),Gun(g): ")
-you = you.toLowerCase(you)
-print(you)
+you = you.lower()
+result=GameStatus(com,you)
