@@ -21,6 +21,14 @@ def GameStatus(com,you):
             return True
         if you=="s":
             return False
+def Check(choose):
+    if choose=="s":
+        return "Snake"
+    elif choose=="w":
+        return "Water"
+    elif choose=="g":
+        return "Gun"
+
 
 
 print("Computer Turn: Choose Snake(s),Water(w), Gun(g): ")
@@ -33,11 +41,13 @@ elif(com==2):
 else:
     com="g"
 
+
 you = input("Your Turn: Choose Snake(s),Water(w),Gun(g): ")
 you = you.lower()
 
 
-print(f"Computer Choose {}")
+print(f"Computer Choose {Check(com)}")
+print(f"You Choose {Check(you)}")
 
 result=GameStatus(com,you)
 
