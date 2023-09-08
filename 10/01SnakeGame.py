@@ -66,6 +66,7 @@ def Main():
     else:
         print("You Loose!!!")
     # Invoking the Main Function for the loop
+    print()
     Main()
-# Invoki
+# Invoking the Main Function for Once Execution
 Main()
