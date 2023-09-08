@@ -38,29 +38,34 @@ def Check(choose):
         return "Water"
     elif choose=="g":
         return "Gun"
-# Print the Message to make the choose by computer
-print("Computer Turn: Choose Snake(s),Water(w), Gun(g): ")
-# Generating Random Number and Making The Choice according to that Number
-com=random.randint(1,3)
-if com==1:
-    com="s"
-elif(com==2):
-    com="w"
-else:
-    com="g"
-# Asking for the User to Choose One of the Option
-you = input("Your Turn: Choose Snake(s),Water(w),Gun(g): ")
-you = you.lower()
-#  Printing What Compute and User Choose
-print(f"Computer Choose {Check(com)}")
-print(f"You Choose {Check(you)}")
-# Checking the Status of the Game
-result=GameStatus(com,you)
-#  Printing the Result of the Game
-if result==None:
-    print("Tie!!!")
-elif result:
-    print("You Win!!!")
-else:
-    print("You Loose!!!")
-
+# Creating the Main Function for the Recursion
+def Main():
+    # Print the Message to make the choose by computer
+    print("Computer Turn: Choose Snake(s),Water(w), Gun(g): ")
+    # Generating Random Number and Making The Choice according to that Number
+    com=random.randint(1,3)
+    if com==1:
+        com="s"
+    elif(com==2):
+        com="w"
+    else:
+        com="g"
+    # Asking for the User to Choose One of the Option
+    you = input("Your Turn: Choose Snake(s),Water(w),Gun(g): ")
+    you = you.lower()
+    #  Printing What Compute and User Choose
+    print(f"Computer Choose {Check(com)}")
+    print(f"You Choose {Check(you)}")
+    # Checking the Status of the Game
+    result=GameStatus(com,you)
+    #  Printing the Result of the Game
+    if result==None:
+        print("Tie!!!")
+    elif result:
+        print("You Win!!!")
+    else:
+        print("You Loose!!!")
+    # Invoking the Main Function for the loop
+    Main()
+# Invoki
+Main()
