@@ -1,0 +1,5 @@
+f=open("file.txt","w")
+f.write("I am Santosh Bhandari")
+# data=f.read()
+# print(data)
+f.close()
