@@ -14,6 +14,6 @@ with open("WithFile.txt","w") as f:
 
 with open("img.jpg","rb") as f:
     data= f.read()
-    # print(data)
+    print(data)
 
 
