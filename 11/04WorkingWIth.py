@@ -7,7 +7,7 @@ with open("WithFile.txt","r") as file:
 
 
 with open("WithFile.txt","w") as f:
-    f.write("Hello, I am Using WIth to Open file")
+    f.write("Hello, Writing the files")
 
 
 
