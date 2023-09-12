@@ -1,3 +1,4 @@
+import math
 class Calculator:
     def __init__(self,num):
         self.num=num
@@ -6,7 +7,7 @@ class Calculator:
     def Cube(self):
         print(f"Cube of {self.num} = {self.num**3}")
     def SquareRoot(self):
-        print(f"Square root of {self.num} = {pow(self.num,1/2)}")
+        print(f"Square root of {self.num} = {math.sqrt(self.num)}")
 
 calc = Calculator(4)
 calc.Square()
