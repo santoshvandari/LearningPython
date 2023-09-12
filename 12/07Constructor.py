@@ -6,3 +6,5 @@ class ConstructorDemo:
     def Display(self):
         print(f"Name = {self.name}\nAddress = {self.address}")
 
+person=ConstructorDemo("Santosh Bhandari","Kanaki")
+person.Display()
