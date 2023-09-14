@@ -8,6 +8,8 @@ class Programmer(Employee):
         self.language=lang
     def getLanguage(self):
         print(f"Work With {self.language}.")
+    def getDetails(self):
+        print(f"Working as Programmer")
 
 e=Employee()
 e.getDetails()
