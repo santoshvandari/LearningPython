@@ -9,3 +9,8 @@ class Parent2:
 class Child(Parent1,Parent2):
     def Display(self):
         print("Displaying From Child Class....")
+
+child = Child()
+child.p1Display()
+child.p2Display()
+child.Display()
