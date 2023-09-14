@@ -9,3 +9,8 @@ class Programmer(Employee):
     def getLanguage(self):
         print(f"Work With {self.language}.")
 
+e=Employee()
+e.getDetails()
+p=Programmer("Python")
+p.getDetails()
+p.getLanguage()
