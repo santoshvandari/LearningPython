@@ -7,7 +7,7 @@ class Data:
         return obj1.number-obj2.number
     def __mul__(obj1,obj2):
         return obj1.number*obj2.number
-    def __div__(obj1,obj2):
+    def __truediv__(obj1,obj2):
         return obj1.number/obj2.number
 
 obj1=Data(10)
