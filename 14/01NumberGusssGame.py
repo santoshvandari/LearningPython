@@ -16,5 +16,6 @@ while(GuessNumber!=randomNum):
 with open("HighestScore.txt","r") as f:
     highScore=int(f.read())
 if(highScore>GuessNumber):
+    print("Congrats!!! You Have Broken Highest Score!")
     with open("HighestScore.txt","w") as f:
         f.write(str(GuessNumber))
