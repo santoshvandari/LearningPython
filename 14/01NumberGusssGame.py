@@ -1,5 +1,6 @@
 import random
 randomNum= random.randint(10,20)
+print(randomNum)
 Guess=0
 GuessNumber=None
 while(GuessNumber==randomNum):
@@ -10,3 +11,5 @@ while(GuessNumber==randomNum):
     else:
         if(GuessNumber>randomNum):
             print("You Guessed Wrong Number! Please Guess Smaller Number.")
+        else:
+            print("You Guessed Wrong Number! Please Guess Larger Number.")
