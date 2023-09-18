@@ -1,5 +1,5 @@
 import random
-randomNum= random.randint(10,20)
+randomNum= random.randint(1,100)
 print(randomNum)
 Guess=0
 GuessNumber=None
