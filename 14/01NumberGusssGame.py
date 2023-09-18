@@ -13,3 +13,7 @@ while(GuessNumber!=randomNum):
             print("You Guessed Wrong Number! Please Guess Smaller Number.")
         else:
             print("You Guessed Wrong Number! Please Guess Larger Number.")
+with open("HighestScore.txt","r") as f:
+    highScore=int(f.read())
+if(highScore>GuessNumber):
+    with open("HighestScore.txt","w") as f:
