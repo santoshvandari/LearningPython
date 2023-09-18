@@ -17,3 +17,4 @@ with open("HighestScore.txt","r") as f:
     highScore=int(f.read())
 if(highScore>GuessNumber):
     with open("HighestScore.txt","w") as f:
+        f.write(str(GuessNumber))
