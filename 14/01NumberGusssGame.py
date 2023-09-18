@@ -1,4 +1,4 @@
-
+# Create a Game that will ask the user to guess the random number. If the User Guess the Smaller Number, then Suggest to Guess the Larger Number and if the User Guess the Larger Number, then Suggest to Guess the Smaller Number.
 # Importing the Random Module for the Generating the Random Number
 import random
 randomNum= random.randint(1,100)
