@@ -22,6 +22,7 @@ while(GuessNumber!=randomNum):
 # Reading the Highest Score File of the Previously set.
 with open("HighestScore.txt","r") as f:
     highScore=int(f.read())
+# Rewriting the Highest Score if it is a New Hightest Score
 if(highScore>Guess):
     print("Congrats!!! You Have Broken Highest Score Record!")
     with open("HighestScore.txt","w") as f:
