@@ -1,6 +1,6 @@
 import random
 randomNum= random.randint(1,100)
-print(randomNum)
+# print(randomNum)
 Guess=0
 GuessNumber=None
 while(GuessNumber!=randomNum):
