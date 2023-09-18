@@ -1,7 +1,7 @@
 # import random
 # randomNum= random.randint(1,100)
 # print(randomNum)
-Guess=0
+# Guess=0
 # GuessNumber=None
 # while(GuessNumber!=randomNum):
 #     GuessNumber=int(input("Enter a Guess Number: "))
@@ -18,4 +18,4 @@ with open("HighestScore.txt","r") as f:
 if(highScore>Guess):
     print("Congrats!!! You Have Broken Highest Score!")
     with open("HighestScore.txt","w") as f:
-        f.write(str(GuessNumber))
+        f.write(str(Guess))
