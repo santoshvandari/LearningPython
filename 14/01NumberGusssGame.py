@@ -1,3 +1,5 @@
+
+# Importing the Random Module for the Generating the Random Number
 import random
 randomNum= random.randint(1,100)
 # print(randomNum)
