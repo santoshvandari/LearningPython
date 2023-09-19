@@ -15,7 +15,11 @@ class Student:
         self.books.append(Bookname)
         print("Thank You for Returning the Book. Hope You Enjoy the Books.")
 class Student:
-    pass
+    def RequestBook(self):
+        bookname=input("Enter a Book You want to Read: ")
+        return bookname
+    def ReturnBook(self):
+        bookNam=input("Enter a")
 
 if __name__=="__main__":
     pass
