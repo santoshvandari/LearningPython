@@ -6,5 +6,7 @@ print(incrementList)
 
 
 def Cube(n):
-    return math.pow(n,2)
+    # return math.pow(n,3)
+    return n*n*n
 item=[1,2,3,4,5,6,7,8,9,10]
+print(list(map(Cube,item)))
