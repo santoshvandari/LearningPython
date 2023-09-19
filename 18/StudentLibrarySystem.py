@@ -6,8 +6,14 @@ class Library:
         for i in self.books:
             print("\t - ",i)
     def IssueBook(self,BookName):
+        lowerBookList=[]
+        for i in self.books:
+            lowerBookList.append(i.lower())
+        print(lowerBookList)
 
-        if(BookName.lower() in self.books):
+
+
+        if(BookName in lowerBookList):
             self.books.remove(BookName)
             print(f"The {BookName} Book is Available and issued to You. Please Returned it in 30 Days.")
         else:
