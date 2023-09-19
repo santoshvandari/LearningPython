@@ -15,5 +15,7 @@ Step 4:
         Windows Users: 
                     Using Powershell: <virtualenv_name>\Scripts\Activate.ps1
                     Using CMD: <virtualenv_name>\Scripts\Activate.bat
+Step 5:
+    Deactivate Virtualenv Using the Command: deactivate
 
 '''
