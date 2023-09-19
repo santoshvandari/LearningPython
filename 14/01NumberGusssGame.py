@@ -28,11 +28,15 @@ while(GuessNumber!=randomNum):
                     print("You Guessed Wrong Number! Please Guess Larger Number.")
     except Exception as e:
         print("Failed!!! Your Entered Something Wrong. Error: ",e)
-# Reading the Highest Score File of the Previously set.
-with open("HighestScore.txt","r") as f:
-    highScore=int(f.read())
-# Rewriting the Highest Score if it is a New Hightest Score
-if(highScore>Guess):
-    print("Congrats!!! You Have Broken Highest Score Record!")
-    with open("HighestScore.txt","w") as f:
-        f.write(str(Guess))
+
+try:
+    # Reading the Highest Score File of the Previously set.
+    with open("HighestScore.txt","r") as f:
+        highScore=int(f.read())
+    # Rewriting the Highest Score if it is a New Hightest Score
+    if(highScore>Guess):
+        print("Congrats!!! You Have Broken Highest Score Record!")
+        with open("HighestScore.txt","w") as f:
+            f.write(str(Guess))
+except Exception as e:
+    print("Failed to Open File!!! Error: ",e)
