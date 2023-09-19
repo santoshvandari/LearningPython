@@ -8,6 +8,9 @@ step 1:
 Step 2:
     Verify your installation using Command:virtualenv --version
 Step 3:
-    Create a virtualenv using the following command:
+    Create a virtualenv using the following command: virtualenv my_name
+Step 4:
+     Activate Virtualenv Using the Following Commnad:
+        Linux/MacOs Users: 
 
 '''
