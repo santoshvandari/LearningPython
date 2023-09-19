@@ -1,4 +1,4 @@
-class Student:
+class Library:
     def __init__(self,books):
         self.books=books
     def DisplayAvailableBooks(self):
@@ -23,4 +23,6 @@ class Student:
         return bookName
 
 if __name__=="__main__":
-    pass
+    bookList=["Python","Django","C","C++","Java","Rust"]
+    library=Library(bookList)
+    student=Student()
