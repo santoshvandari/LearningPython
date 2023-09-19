@@ -2,7 +2,7 @@ class Library:
     def __init__(self,books):
         self.books=books
     def DisplayAvailableBooks(self):
-        print("The Available Books are: ")
+        print("\nThe Available Books are: ")
         for i in self.books:
             print("\t - ",i)
     def IssueBook(self,BookName):
