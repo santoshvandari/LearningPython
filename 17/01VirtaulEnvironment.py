@@ -14,6 +14,6 @@ Step 4:
         Linux/MacOs Users: source virtualenv_name/bin/activate
         Windows Users: 
                     Using Powershell: <virtualenv_name>\Scripts\Activate.ps1
-                    Using CMD: <virtualenv_name>\Scripts\Activate.ps1
+                    Using CMD: <virtualenv_name>\Scripts\Activate.bat
 
 '''
