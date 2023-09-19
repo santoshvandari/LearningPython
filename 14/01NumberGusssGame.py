@@ -10,19 +10,21 @@ GuessNumber=None
 while(GuessNumber!=randomNum):
     print("Enter q to Quit the Game")
     try:
-        GuessNumber=int(input("Enter a Guess Number: "))
-        Guess+=1
+        GuessNumber=input("Enter a Guess Number: ")
         # If the User Guess is Correct.
         if(GuessNumber=="q" or GuessNumber=="Q"):
             exit()
-        if(GuessNumber==randomNum):
-            print(f"You have Guess the Correct Number in {Guess} Guesses!!!")
-        # If the User Guess is not correct.
-        else:
-            if(GuessNumber>randomNum):
-                print("You Guessed Wrong Number! Please Guess Smaller Number.")
+        else: 
+            Guess+=1
+            GuessNumber=int(GuessNumber)
+            if(GuessNumber==randomNum):
+                print(f"You have Guess the Correct Number in {Guess} Guesses!!!")
+            # If the User Guess is not correct.
             else:
-                print("You Guessed Wrong Number! Please Guess Larger Number.")
+                if(GuessNumber>randomNum):
+                    print("You Guessed Wrong Number! Please Guess Smaller Number.")
+                else:
+                    print("You Guessed Wrong Number! Please Guess Larger Number.")
     except Exception as e:
         print("Failed!!! Your Entered Something Wrong. Error: ",e)
 # Reading the Highest Score File of the Previously set.
