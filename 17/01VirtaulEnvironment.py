@@ -8,6 +8,6 @@ step 1:
 Step 2:
     Verify your installation using Command:virtualenv --version
 Step 3:
-
+    Create a virtualenv using the following command:
 
 '''
