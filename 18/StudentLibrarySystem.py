@@ -26,18 +26,22 @@ if __name__=="__main__":
     bookList=["Python","Django","C","C++","Java","Rust"]
     library=Library(bookList)
     student=Student()
-    welcomeMessage='''
-    ====== Welcome to Library ======
-    1. List all the Books
-    2. Request a Book
-    3. Add/Return a Book
-    4. Exit
-'''
-    print(welcomeMessage)
-    try: 
-        choice=int(input("Enter Your Choice(1,2,3,4): "))
-        if choice==1:
-            pr
+    while(True):
+        welcomeMessage='''
+        ====== Welcome to Library ======
+        1. List all the Books
+        2. Request a Book
+        3. Add/Return a Book
+        4. Exit
+    '''
+        print(welcomeMessage)
+        try: 
+            choice=int(input("Enter Your Choice(1,2,3,4): "))
+            if choice==1:
+                library.DisplayAvailableBooks()
+            elif choice==2:
+                
+                
 
-    except Exception as e:
-        print("Invalid Entry: Error: ",e)
+        except Exception as e:
+            print("Invalid Entry: Error: ",e)
