@@ -1,3 +1,3 @@
 list=["Santosh","Aditya","Krishna","Manoj","Uttam"]
-joinedItems=", ".join(list)
+joinedItems="My Friends are: "+", ".join(list)
 print(joinedItems)
