@@ -4,5 +4,10 @@
 # commands to create Virtual environment 
 '''
 step 1: 
-    Install Virtual Environment using the Command: 
+    Install Virtual Environment using the Command: pip install virtualenv
+Step 2:
+    Verify your installation using Command:virtualenv --version
+Step 3:
+
+
 '''
