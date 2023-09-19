@@ -13,5 +13,7 @@ Step 4:
      Activate Virtualenv Using the Following Commnad:
         Linux/MacOs Users: source virtualenv_name/bin/activate
         Windows Users: 
+                    Using Powershell: <virtualenv_name>\Scripts\Activate.ps1
+                    Using CMD: <virtualenv_name>\Scripts\Activate.ps1
 
 '''
