@@ -7,6 +7,7 @@ college="Mechi"
 
 print(f"My name is {name} and live in {address}. I am Currently Studying {subject} in {college}.")
 
+# it is used when fstring is not introducted
 sentence="My name is {} and live in {}. I am Currently Studying {} in {}.".format(name,address,subject,college)
 print(sentence)
 print("My name is {} and live in {}. I am Currently Studying {} in {}.".format(name,address,subject,college))
