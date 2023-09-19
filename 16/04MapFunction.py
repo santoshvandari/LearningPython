@@ -1,7 +1,10 @@
+import math
 increment=lambda a:a+10
-list=[25,45,48]
-# incrementList=list(map(increment,list))
-# print(incrementList)
+listitems=[25,45,48]
+incrementList=list(map(increment,listitems))
+print(incrementList)
 
 
-print(list(map(increment,list)))
+def Cube(n):
+    return math.pow(n,2)
+item=[1,2,3,4,5,6,7,8,9,10]
