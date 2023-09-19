@@ -13,6 +13,7 @@ while(GuessNumber!=randomNum):
         GuessNumber=input("Enter a Guess Number: ")
         # If the User Guess is Correct.
         if(GuessNumber=="q" or GuessNumber=="Q"):
+            print("Thank You for Playing Game....")
             exit()
         else: 
             Guess+=1
