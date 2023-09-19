@@ -13,7 +13,7 @@ class Library:
             print("Sorry!! The Book is Not Available. Please Try Again When it is available.")
     def ReturnBook(self,Bookname):
         self.books.append(Bookname)
-        print("Thank You for Returning the Book. Hope You Enjoy the Books.")
+        print(f"Thank You for Returning the {Bookname}Book. Hope You Enjoy the Books.")
 class Student:
     def RequestBook(self):
         bookname=input("Enter a Book You want to Read: ")
@@ -23,7 +23,7 @@ class Student:
         return bookName
 
 if __name__=="__main__":
-    bookList=["Python","Django","C","C++","Java","Rust"]
+    bookList=("Python","Django","C","C++","Java","Rust")
     library=Library(bookList)
     student=Student()
     while(True):
