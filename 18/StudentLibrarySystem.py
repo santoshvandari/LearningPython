@@ -36,3 +36,8 @@ if __name__=="__main__":
     print(welcomeMessage)
     try: 
         choice=int(input("Enter Your Choice(1,2,3,4): "))
+        if choice==1:
+            pr
+
+    except Exception as e:
+        print("Invalid Entry: Error: ",e)
