@@ -26,3 +26,13 @@ if __name__=="__main__":
     bookList=["Python","Django","C","C++","Java","Rust"]
     library=Library(bookList)
     student=Student()
+    welcomeMessage='''
+    ====== Welcome to Library ======
+    1. List all the Books
+    2. Request a Book
+    3. Add/Return a Book
+    4. Exit
+'''
+    print(welcomeMessage)
+    try: 
+        choice=int(input("Enter Your Choice(1,2,3,4): "))
