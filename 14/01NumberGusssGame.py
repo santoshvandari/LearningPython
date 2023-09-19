@@ -8,10 +8,13 @@ Guess=0
 GuessNumber=None
 # Looping the Guessing Process Until the Guess Number is equal to Random Number.
 while(GuessNumber!=randomNum):
+    print("Enter q to Quit the Game")
     try:
         GuessNumber=int(input("Enter a Guess Number: "))
         Guess+=1
         # If the User Guess is Correct.
+        if(GuessNumber=="q" or GuessNumber=="Q"):
+            exit()
         if(GuessNumber==randomNum):
             print(f"You have Guess the Correct Number in {Guess} Guesses!!!")
         # If the User Guess is not correct.
