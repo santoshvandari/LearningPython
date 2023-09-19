@@ -8,17 +8,20 @@ Guess=0
 GuessNumber=None
 # Looping the Guessing Process Until the Guess Number is equal to Random Number.
 while(GuessNumber!=randomNum):
-    GuessNumber=int(input("Enter a Guess Number: "))
-    Guess+=1
-    # If the User Guess is Correct.
-    if(GuessNumber==randomNum):
-        print(f"You have Guess the Correct Number in {Guess} Guesses!!!")
-    # If the User Guess is not correct.
-    else:
-        if(GuessNumber>randomNum):
-            print("You Guessed Wrong Number! Please Guess Smaller Number.")
+    try:
+        GuessNumber=int(input("Enter a Guess Number: "))
+        Guess+=1
+        # If the User Guess is Correct.
+        if(GuessNumber==randomNum):
+            print(f"You have Guess the Correct Number in {Guess} Guesses!!!")
+        # If the User Guess is not correct.
         else:
-            print("You Guessed Wrong Number! Please Guess Larger Number.")
+            if(GuessNumber>randomNum):
+                print("You Guessed Wrong Number! Please Guess Smaller Number.")
+            else:
+                print("You Guessed Wrong Number! Please Guess Larger Number.")
+    except Exception as e:
+        print("Failed!!! Your Entered Something Wrong. Error: ",e)
 # Reading the Highest Score File of the Previously set.
 with open("HighestScore.txt","r") as f:
     highScore=int(f.read())
