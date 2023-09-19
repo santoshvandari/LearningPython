@@ -19,7 +19,8 @@ class Student:
         bookname=input("Enter a Book You want to Read: ")
         return bookname
     def ReturnBook(self):
-        bookNam=input("Enter a")
+        bookName=input("Enter a Book You want to Return: ")
+        return bookName
 
 if __name__=="__main__":
     pass
