@@ -47,8 +47,6 @@ if __name__=="__main__":
                 print("Thank you For Using Library System.")
                 exit()
             else:
-                print("Invalid Entry!!")
-                
-
+                print("Invalid Entry!!")   
         except Exception as e:
             print("Invalid Entry: Error: ",e)
