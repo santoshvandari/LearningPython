@@ -44,9 +44,10 @@ if __name__=="__main__":
             elif choice==3:
                 library.ReturnBook(student.ReturnBook)
             elif choice==4:
+                print("Thank you For Using Library System.")
                 exit()
             else:
-
+                print("Invalid Entry!!")
                 
 
         except Exception as e:
