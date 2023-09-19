@@ -4,4 +4,5 @@ try:
     print(f"{n1}/{n2} = {n1/n2}")
 except ZeroDivisionError:
     print("Infinite")
-    
+except Exception e:
+    print("Invalid Input. Error: ",e)
