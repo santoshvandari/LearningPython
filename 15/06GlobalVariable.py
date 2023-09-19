@@ -5,7 +5,7 @@ def function():
     # if we use global keyword then it will access a global variable which was already created.
     # IF we don't use Global keyword then it will create new local variable
     print(a)
-    a=50
+    a=50  # The Value of A change in global level
     b=10
     print(a)
     print(b)
