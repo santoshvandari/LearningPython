@@ -11,6 +11,7 @@ Step 3:
     Create a virtualenv using the following command: virtualenv my_name
 Step 4:
      Activate Virtualenv Using the Following Commnad:
-        Linux/MacOs Users: 
+        Linux/MacOs Users: source virtualenv_name/bin/activate
+        Windows Users: 
 
 '''
