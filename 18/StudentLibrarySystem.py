@@ -40,9 +40,9 @@ if __name__=="__main__":
             if choice==1:
                 library.DisplayAvailableBooks()
             elif choice==2:
-                library.IssueBook(student.RequestBook)
+                library.IssueBook(student.RequestBook())
             elif choice==3:
-                library.ReturnBook(student.ReturnBook)
+                library.ReturnBook(student.ReturnBook())
             elif choice==4:
                 print("Thank you For Using Library System.")
                 exit()
