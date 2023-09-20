@@ -1,7 +1,7 @@
 # importing the necessary module  
 import random                       # importing the random module  
  
-def generate_password(Type,length):    
+def GeneratePassword(Type,length):    
     # defining the list of characters that will be used to generate the password  
     PasswordCombination=None
     if(Type==1):
@@ -39,6 +39,9 @@ if __name__ == "__main__":
         '''
         print(welcomeDisplay)
         combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
+        if(combinetype!=6):
+            len=int(input("Enter a Length of Password: "))
+
         
         # defining the length of the password  
         len = 1000  
