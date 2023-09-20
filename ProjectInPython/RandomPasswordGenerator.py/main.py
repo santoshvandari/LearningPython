@@ -34,6 +34,7 @@ if __name__ == "__main__":
                 len=int(input("Enter a Length of Password: "))
                 print("\nYour Password: \n"+GeneratePassword(combinetype,len))
             elif(combinetype==6):
+                print("Thank You For Using Password Generator.")
                 exit()
             else:
                 print("Invalid Option Selected. Please Select Again.")
