@@ -32,7 +32,7 @@ if __name__ == "__main__":
             combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
             if(combinetype!=6):
                 len=int(input("Enter a Length of Password: "))
-                print("\nYour Password: \n"+GeneratePassword(combinetype,len))
+                print("\nYour Generated Password Password: \n"+GeneratePassword(combinetype,len))
             elif(combinetype==6):
                 print("Thank You For Using Password Generator.")
                 exit()
