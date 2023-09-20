@@ -27,11 +27,6 @@ if __name__ == "__main__":
     # printing the final result for the users  
     print("A randomly generated Password is:", pass_str)  
 
-listtypeSmall="abcdefghijklmnopqrstuvwxyz"
-listTypeCapital="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-listTypeSmallCapital="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-ListTypeSmallCapitalNumric="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
-ListOfAll="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"
 
 def generate_password(Type,length):    
     # defining the list of characters that will be used to generate the password  
@@ -48,12 +43,21 @@ def generate_password(Type,length):
         PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"
 
     # defining an empty password string  
-    pass_str = ""  
+    GeneratePassword = ""  
   
     # creating a loop to randomly select the character from the list and insert it in the password string upto the given length  
     for i in range(len):  
         # using the random.choice() method to select a random character from the list and inserting it in the password string  
-        pass_str = pass_str + random.choice(list_of_chars)  
+        GeneratePassword = GeneratePassword + random.choice(PasswordCombination)  
       
     # returning the generated password string  
-    return pass_str 
+    return GeneratePassword 
+
+# main function  
+if __name__ == "__main__":  
+    # defining the length of the password  
+    len = 8  
+    # calling the generate_password() function and storing the returned value in a variable  
+    pass_str = generate_password(len)  
+    # printing the final result for the users  
+    print("A randomly generated Password is:", pass_str)  
