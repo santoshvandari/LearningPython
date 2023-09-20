@@ -26,8 +26,20 @@ def generate_password(Type,length):
     # returning the generated password string  
     return GeneratePassword 
 
+Lowercase (abc)
+Uppercase (ABC)
+Numbers (123)
+Randomized symbols (!#$)
+
 # main function  
 if __name__ == "__main__":  
+    welcomeDisplay='''********** Random Password Generator **********
+    1. Combination of [a-z]
+    2. Combination of [A-z]
+    3. Combination of [a-z & A-z]
+    2. Combination of [a-z & A-z]
+    '''
+    print("******")
     # defining the length of the password  
     len = 1000  
     # calling the generate_password() function and storing the returned value in a variable  
