@@ -42,11 +42,13 @@ if __name__ == "__main__":
             combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
             if(combinetype in [1,2,3,4,5]):
                 len=int(input("Enter a Length of Password: "))
-                GeneratedPassowrd=GeneratePassword(combinetype,len)
-                print(f"\nYour Generated Password Password: \n{GeneratedPassowrd}")
+                GeneratedPassword=GeneratePassword(combinetype,len)
+                print(f"\nYour Generated Password Password: \n{GeneratedPassword}")
+                # print("The Generated Password Has Been Copied.")
+                # pyperclip.copy(GeneratedPassowrd)
+                pyperclip.copy(GeneratedPassword)
                 print("The Generated Password Has Been Copied.")
-                pyperclip.copy(GeneratedPassowrd)
-                # spam = pyperclip.paste()
+                # # spam = pyperclip.paste()
             elif(combinetype==6):
                 print("Thank You For Using Password Generator.")
                 exit()
