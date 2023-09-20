@@ -1,3 +1,6 @@
+# Author: Santosh Bhandari
+# GitHub: https://www.github.com/santoshvandari
+
 import random  
 def GeneratePassword(Type,length):    
     PasswordCombination=None
