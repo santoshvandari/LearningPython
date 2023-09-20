@@ -17,7 +17,8 @@ def GeneratePassword(Type,length):
         PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
     elif(Type==5):
         PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()<>?;"
-    GeneratePassword = ""   
+    GeneratePassword = ""  
+    # Generating the Random Password based upon provided length and Combination using loop  
     for i in range(length):  
         GeneratePassword = GeneratePassword + random.choice(PasswordCombination)  
     return GeneratePassword 
