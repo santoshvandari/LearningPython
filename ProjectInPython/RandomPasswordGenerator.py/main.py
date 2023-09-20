@@ -3,7 +3,7 @@ import random                       # importing the random module
   
 # defining a function to randomly generate the password  
 def generate_password(len):  
-    "This function accepts a parameter 'len' and returns a randomly generated password"  
+    # "This function accepts a parameter 'len' and returns a randomly generated password"  
   
     # defining the list of characters that will be used to generate the password  
     list_of_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"  
@@ -26,3 +26,6 @@ if __name__ == "__main__":
     pass_str = generate_password(len)  
     # printing the final result for the users  
     print("A randomly generated Password is:", pass_str)  
+
+listtypesmall="abcdefghijklmnopqrstuvwxyz"
+listTypeCapital="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"
