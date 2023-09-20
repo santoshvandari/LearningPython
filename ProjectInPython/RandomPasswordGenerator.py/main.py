@@ -1,6 +1,7 @@
 # Author: Santosh Bhandari
 # GitHub: https://www.github.com/santoshvandari
 
+# importing the Random Module
 import random  
 def GeneratePassword(Type,length):    
     PasswordCombination=None
