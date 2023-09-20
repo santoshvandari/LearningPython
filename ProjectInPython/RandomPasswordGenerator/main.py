@@ -44,11 +44,9 @@ if __name__ == "__main__":
                 len=int(input("Enter a Length of Password: "))
                 GeneratedPassword=GeneratePassword(combinetype,len)
                 print(f"\nYour Generated Password Password: \n{GeneratedPassword}")
-                # print("The Generated Password Has Been Copied.")
-                # pyperclip.copy(GeneratedPassowrd)
+                # Copy the Code in Clipboard
                 pyperclip.copy(GeneratedPassword)
                 print("The Generated Password Has Been Copied.")
-                # # spam = pyperclip.paste()
             elif(combinetype==6):
                 print("Thank You For Using Password Generator.")
                 exit()
