@@ -33,11 +33,12 @@ listTypeSmallCapital="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 ListTypeSmallCapitalNumric="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
 ListOfAll="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"
 
-def generate_password(len):  
-    # "This function accepts a parameter 'len' and returns a randomly generated password"  
-  
+def generate_password(Type,length):    
     # defining the list of characters that will be used to generate the password  
-    list_of_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"  
+    PasswordCombination=None
+    if(Type==1):
+        PasswordCombination="abcdefghijklmnopqrstuvwxyz"
+    elif(Type==2)
     # defining an empty password string  
     pass_str = ""  
   
