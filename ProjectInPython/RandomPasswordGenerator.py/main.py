@@ -28,15 +28,14 @@ if __name__ == "__main__":
         6. Quit the Password Generator
         '''
         print(welcomeDisplay)
-        combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
-        if(combinetype!=6):
-            len=int(input("Enter a Length of Password: "))
-            print("\nYour Password: \n"+GeneratePassword(combinetype,len))
-
-        
-        # defining the length of the password  
-        # len = 1000  
-        # calling the generate_password() function and storing the returned value in a variable  
-        # pass_str = generate_password(1,len)  
-        # printing the final result for the users  
-        # print("A randomly generated Password is:", pass_str)  
+        try:
+            combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
+            if(combinetype!=6):
+                len=int(input("Enter a Length of Password: "))
+                print("\nYour Password: \n"+GeneratePassword(combinetype,len))
+            elif(combinetype==6):
+                exit()
+            else:
+                print("Invalid Option Selected. Please Select Again.")
+        except Exception as e:
+            print("Invalid Input. Please Select Again")
