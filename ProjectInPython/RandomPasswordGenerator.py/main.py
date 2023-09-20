@@ -1,5 +1,4 @@
 import random  
- 
 def GeneratePassword(Type,length):    
     PasswordCombination=None
     if(Type==1):
@@ -13,7 +12,7 @@ def GeneratePassword(Type,length):
     elif(Type==5):
         PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()<>?;"
     GeneratePassword = ""   
-    for i in range(len):  
+    for i in range(length):  
         GeneratePassword = GeneratePassword + random.choice(PasswordCombination)  
     return GeneratePassword 
 
