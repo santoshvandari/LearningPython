@@ -55,4 +55,4 @@ if __name__ == "__main__":
             else:
                 print("Invalid Option Selected. Please Select Again.")
         except Exception as e:
-            print("Invalid Input. Please Select Again")
+            print("Invalid Input. Please Select Again. Error: ",e)
