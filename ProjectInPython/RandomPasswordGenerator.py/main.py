@@ -3,7 +3,7 @@
 
 # importing the Random Module
 import random  
-import clipboard
+import pyperclip
 
 # Creating the Function that returns Combination of Password
 def GeneratePassword(Type,length):    
@@ -46,7 +46,7 @@ if __name__ == "__main__":
                 print(f"\nYour Generated Password Password: \n{GeneratedPassword}")
                 # print("The Generated Password Has Been Copied.")
                 # pyperclip.copy(GeneratedPassowrd)
-                clipboard.copy(GeneratedPassword)
+                pyperclip.copy(GeneratedPassword)
                 print("The Generated Password Has Been Copied.")
                 # # spam = pyperclip.paste()
             elif(combinetype==6):
