@@ -3,8 +3,10 @@
 
 # importing the Random Module
 import random  
+# Creating the Function that returns Combination of Password
 def GeneratePassword(Type,length):    
     PasswordCombination=None
+    # Selecting the Different Combination 
     if(Type==1):
         PasswordCombination="abcdefghijklmnopqrstuvwxyz"
     elif(Type==2):
