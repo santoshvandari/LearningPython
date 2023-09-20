@@ -38,7 +38,15 @@ def generate_password(Type,length):
     PasswordCombination=None
     if(Type==1):
         PasswordCombination="abcdefghijklmnopqrstuvwxyz"
-    elif(Type==2)
+    elif(Type==2):
+        PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    elif(Type==3):
+        PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    elif(Type==4):
+        PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+    elif(Type==5):
+        PasswordCombination="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()"
+
     # defining an empty password string  
     pass_str = ""  
   
