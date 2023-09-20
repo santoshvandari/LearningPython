@@ -38,7 +38,8 @@ if __name__ == "__main__":
         6. Quit the Password Generator
         '''
         print(welcomeDisplay)
-        combinetype=
+        combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
+        
         # defining the length of the password  
         len = 1000  
         # calling the generate_password() function and storing the returned value in a variable  
