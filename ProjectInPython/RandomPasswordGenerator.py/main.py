@@ -28,20 +28,20 @@ def generate_password(Type,length):
 
 # main function  
 if __name__ == "__main__":  
-    wh
-    welcomeDisplay='''\n********** Random Password Generator **********
-    1. Combination of Lowercase[a-z]
-    2. Combination of Uppercase[A-z]
-    3. Combination of Lowercase[a-z] & Uppercase[A-Z]
-    4. Combination of Lowercase[a-z], Uppercase[A-Z] & Numbers[0-9]
-    5. Combination of Lowercase[a-z], Uppercase[A-Z], Numbers[0-9] & Special Character[@#$%^&*()<>?;]
-    6. Quit the Password Generator
-    '''
-    print(welcomeDisplay)
-    combinetype=
-    # defining the length of the password  
-    len = 1000  
-    # calling the generate_password() function and storing the returned value in a variable  
-    pass_str = generate_password(1,len)  
-    # printing the final result for the users  
-    print("A randomly generated Password is:", pass_str)  
+    while(True):
+        welcomeDisplay='''\n********** Random Password Generator **********
+        1. Combination of Lowercase[a-z]
+        2. Combination of Uppercase[A-z]
+        3. Combination of Lowercase[a-z] & Uppercase[A-Z]
+        4. Combination of Lowercase[a-z], Uppercase[A-Z] & Numbers[0-9]
+        5. Combination of Lowercase[a-z], Uppercase[A-Z], Numbers[0-9] & Special Character[@#$%^&*()<>?;]
+        6. Quit the Password Generator
+        '''
+        print(welcomeDisplay)
+        combinetype=
+        # defining the length of the password  
+        len = 1000  
+        # calling the generate_password() function and storing the returned value in a variable  
+        pass_str = generate_password(1,len)  
+        # printing the final result for the users  
+        print("A randomly generated Password is:", pass_str)  
