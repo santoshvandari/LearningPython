@@ -25,6 +25,7 @@ def GeneratePassword(Type,length):
 
 if __name__ == "__main__":  
     while(True):
+        # Creating the Welcome Message
         welcomeDisplay='''\n********** Random Password Generator **********
         1. Combination of Lowercase[a-z]
         2. Combination of Uppercase[A-z]
@@ -34,6 +35,7 @@ if __name__ == "__main__":
         6. Quit the Password Generator
         '''
         print(welcomeDisplay)
+        # Handeling the Errors
         try:
             combinetype=int(input("Enter Your Choice(1,2,3,4,5,6): "))
             if(combinetype in [1,2,3,4,5]):
