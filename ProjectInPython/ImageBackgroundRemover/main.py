@@ -1,7 +1,7 @@
 from rembg import remove
 from PIL import Image
 
-input_path = 'input.webp'
+input_path = 'img/input.webp'
 output_path = 'output.png'
 
 input = Image.open(input_path)
