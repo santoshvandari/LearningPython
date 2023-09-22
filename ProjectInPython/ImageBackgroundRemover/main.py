@@ -1,9 +1,12 @@
 from rembg import remove
-from PIL import Image
 
-input_path = 'img/cdinput.webp'
-output_path = 'output.png'
+input_path = 'img/input.webp'
+output_path = 'img/output.png'
 
-input = Image.open(input_path)
-output = remove(input)
-output.save(output_path)
+with open(input_path, 'rb') as i:
+    with open(output_path, 'wb') as o:
+        input_data = i.read()
+        output_data = remove(input_data)
+        o.write(output_data)
+
+print(f"Background removed from {input_path} and saved as {output_path}")
