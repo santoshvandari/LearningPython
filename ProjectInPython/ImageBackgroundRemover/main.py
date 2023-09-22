@@ -1,10 +1,9 @@
 from rembg import remove
+from PIL import Image
 
-input_path = 'img/input.webp'
-output_path = 'img/output.png'
+input_path = 'input.webp'
+output_path = 'output.png'
 
-with open(input_path, 'rb') as i:
-    with open(output_path, 'wb') as o:
-        input = i.read()
-        output = remove(input)
-        o.write(output)
+input = Image.open(input_path)
+output = remove(input)
+output.save(output_path)
