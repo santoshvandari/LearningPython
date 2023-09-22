@@ -1,6 +1,6 @@
 from rembg import remove
 
-input_path = 'img/input.png'
+input_path = 'img/input.webp'
 output_path = 'img/output.png'
 
 with open(input_path, 'rb') as i:
