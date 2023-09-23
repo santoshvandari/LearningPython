@@ -37,3 +37,33 @@ print("There are total", cnt,
  
 if crack_password(password_list, obj) == False:
     print("Password not found in this file")
+
+
+
+
+    import zipfile
+import itertools
+
+def crack_password(zip_file, max_length=8):
+    chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]{}|;:,.<>?~"
+    
+    # Try all possible password combinations up to the specified max length
+    for length in range(1, max_length + 1):
+        for combination in itertools.product(chars, repeat=length):
+            password = ''.join(combination)
+            
+            try:
+                with zipfile.ZipFile(zip_file, 'r') as zf:
+                    zf.extractall(pwd=password.encode())
+                print("Password found:", password)
+                return password
+            except Exception:
+                continue
+    
+    return None
+
+zip_file = "gfg.zip"
+result = crack_password(zip_file)
+
+if result is None:
+    print("Password not found.")
