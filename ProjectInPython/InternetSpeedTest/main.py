@@ -1,7 +1,7 @@
 import speedtest
 
-def MB(bytes):
-    return int(bytes/(1024*1024))
+# def MB(bytes):
+#     return int(bytes/(1024*1024))
 def Speed():
     download = MB(st.download())
     upload = MB(st.upload())
