@@ -11,4 +11,5 @@ def Speed():
 if __name__=="__main__":
     st = speedtest.Speedtest()
     print("Internet Speed")
+    Speed()
 
