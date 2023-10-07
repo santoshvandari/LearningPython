@@ -9,7 +9,8 @@ if __name__=="__main__":
     print("Internet Speed")
     download = MB(st.download())
     upload = MB(st.upload())
-    ping = st.results.ping
+    # ping = st.results.ping
+    ping="Hello"
     print(f"Download : {download} MB/s\tUpload : {upload} MB/s\tPing : {ping} ms")
     # Speed()
 
