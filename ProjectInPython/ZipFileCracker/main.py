@@ -23,10 +23,10 @@
  
 # password_list = "rockyou.txt"
  
-zip_file = "gfg.zip"
+# zip_file = "gfg.zip"
  
 # ZipFile object initialised
-obj = zipfile.ZipFile(zip_file)
+# obj = zipfile.ZipFile(zip_file)
  
 # count of number of words present in file
 # cnt = len(list(open(password_list, "rb")))
@@ -47,10 +47,11 @@ def crack_password(zip_file, max_length=8):
     chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+[]{}|;:,.<>?~"
     
     # Try all possible password combinations up to the specified max length
+    print("Password Trying....")
     for length in range(1, max_length + 1):
         for combination in itertools.product(chars, repeat=length):
             password = ''.join(combination)
-            
+            print(password)
             try:
                 with zipfile.ZipFile(zip_file, 'r') as zf:
                     zf.extractall(pwd=password.encode())
@@ -61,7 +62,7 @@ def crack_password(zip_file, max_length=8):
     
     return None
 
-zip_file = "file.zip"
+zip_file = "file.rar"
 result = crack_password(zip_file)
 
 if result is None:
