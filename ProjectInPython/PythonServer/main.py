@@ -47,6 +47,6 @@ try:
 except KeyboardInterrupt:
     print("Shutting down server")
     observer.stop()
-except Exception as e:
+except:
     print("Error occurred")
     observer.stop()
