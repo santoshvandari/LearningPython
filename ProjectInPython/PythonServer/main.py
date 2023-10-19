@@ -37,13 +37,11 @@ class MyHandler(FileSystemEventHandler):
         start_server()
 # Start the server
 start_server()
-
 # Define an observer to watch for file changes
 event_handler = MyHandler()
 observer = Observer()
 observer.schedule(event_handler, path=web_directory, recursive=True)
 observer.start()
-
 try:
     observer.join()  # Join the observer thread
 except KeyboardInterrupt:
