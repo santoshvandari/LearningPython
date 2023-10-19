@@ -1,3 +1,4 @@
+# importing the Necessary Modules and Library
 import http.server
 import socketserver
 from watchdog.observers import Observer
@@ -21,9 +22,9 @@ server_running = False
 def start_server():
     global server_running
     if not server_running:
-        print(f"Serving on port {port}")
+        print(f"Serving on http://127.0.0.1:{port}")
         # Open the default web browser
-        webbrowser.open(f"http://localhost:{port}")
+        webbrowser.open(f"http://127.0.0.1:{port}")
         # Start the server
         httpd.serve_forever()
         server_running = True
