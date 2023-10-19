@@ -5,20 +5,15 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import os
 import webbrowser
-
 # Set the port you want the server to run on
 port = 8080
-
 # Get the current directory where the script is located
 web_directory = os.getcwd()
-
 # Create a simple HTTP server
 handler = http.server.SimpleHTTPRequestHandler
 httpd = socketserver.TCPServer(("", port), handler)
-
 # Flag to track if the server is running
 server_running = False
-
 def start_server():
     global server_running
     if not server_running:
@@ -28,22 +23,18 @@ def start_server():
         # Start the server
         httpd.serve_forever()
         server_running = True
-
 # Define a custom event handler to watch for changes in the directory
 class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.is_directory:
             return
         print(f'Reloading due to change in: {event.src_path}')
-        
         # If the server is running, shut it down
         if server_running:
             httpd.shutdown()
             httpd.server_close()
-        
         # Recreate and start the server
         start_server()
-
 # Start the server
 start_server()
 
