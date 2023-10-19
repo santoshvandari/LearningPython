@@ -1,4 +1,4 @@
-# Random Password Generator
+# Internet Speed Tester
 
 This Python script allows you to check the Internet Speed.
 
