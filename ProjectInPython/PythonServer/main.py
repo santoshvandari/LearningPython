@@ -1,5 +1,6 @@
 import http.server
 import socketserver
+import os
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
@@ -7,7 +8,7 @@ from watchdog.events import FileSystemEventHandler
 port = 8080
 
 # Specify the directory where your webpage file is located
-web_directory = "/"
+web_directory = os.getcwd()
 
 # Create a simple HTTP server
 handler = http.server.SimpleHTTPRequestHandler
