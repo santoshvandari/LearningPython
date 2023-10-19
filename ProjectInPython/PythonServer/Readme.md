@@ -6,6 +6,7 @@ This Python script allows you to Serve the Local file as a server.
 # Usages
 - Install requirements.txt dependencies before running the script.
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
+-  Run the `main.py` Python scirpt.
