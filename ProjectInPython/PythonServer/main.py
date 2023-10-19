@@ -45,4 +45,8 @@ observer.start()
 try:
     observer.join()  # Join the observer thread
 except KeyboardInterrupt:
+    print("Shutting down server")
+    observer.stop()
+except Exception as e:
+    print("Error occurred")
     observer.stop()
