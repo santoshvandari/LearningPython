@@ -5,8 +5,15 @@ from pathlib import Path
 
 class ExampleSpider(scrapy.Spider):
     name = "example"
-    allowed_domains = ["test.com"]
-    start_urls = ["https://test.com"]
+    def start_requests(self):
+        urls = [
+            "http://books.toscrape.com/",
+        ]
+        for url in urls:
+            yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        pass
+        # page = response.url.split("/")[-2]
+        filename = f"booksdata.html"
+        Path(filename).write_bytes(response.body)
+        self.log(f"Saved file {filename}")
