@@ -1,5 +1,7 @@
 import scrapy
+from pathlib import Path
 
+# https://www.nepalstock.com/today-price
 
 class ExampleSpider(scrapy.Spider):
     name = "example"
