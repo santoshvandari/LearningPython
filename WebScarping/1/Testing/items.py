@@ -6,7 +6,7 @@
 import scrapy
 
 
-class DarazscrapingItem(scrapy.Item):
+class TestingItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

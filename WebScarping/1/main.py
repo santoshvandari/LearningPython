@@ -1,1 +1,0 @@
-# Learning Web Scarping Using Scarpy 

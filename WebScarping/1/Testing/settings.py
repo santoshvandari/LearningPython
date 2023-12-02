@@ -1,4 +1,4 @@
-# Scrapy settings for DarazScraping project
+# Scrapy settings for Testing project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "DarazScraping"
+BOT_NAME = "Testing"
 
-SPIDER_MODULES = ["DarazScraping.spiders"]
-NEWSPIDER_MODULE = "DarazScraping.spiders"
+SPIDER_MODULES = ["Testing.spiders"]
+NEWSPIDER_MODULE = "Testing.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "DarazScraping (+http://www.yourdomain.com)"
+#USER_AGENT = "Testing (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "DarazScraping.middlewares.DarazscrapingSpiderMiddleware": 543,
+#    "Testing.middlewares.TestingSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "DarazScraping.middlewares.DarazscrapingDownloaderMiddleware": 543,
+#    "Testing.middlewares.TestingDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "DarazScraping.pipelines.DarazscrapingPipeline": 300,
+#    "Testing.pipelines.TestingPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
