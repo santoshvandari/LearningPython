@@ -17,3 +17,15 @@ class ExampleSpider(scrapy.Spider):
         filename = f"booksdata.html"
         Path(filename).write_bytes(response.body)
         self.log(f"Saved file {filename}")
+        bookcards=response.css(".product_pod")
+        file = open("bookdata", "a")
+        for bookcard in bookcards:
+            title = bookcard.css("h3 a::attr(title)").get()
+            price = bookcard.css(".price_color::text").get()
+            rating = bookcard.css(".star-rating::attr(class)").get().split(" ")[-1]+" stars"
+            file.write(f"Title: {title}\nPrice: {price}\nRating: {rating}\n\n\n")
+        file.close()
+
+
+
+
