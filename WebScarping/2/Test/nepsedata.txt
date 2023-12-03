@@ -1,0 +1,80 @@
+Symbol: ACLBSL
+Last Price: 508.00
+
+
+Symbol: ADBL
+Last Price: 239.00
+
+
+Symbol: AHL
+Last Price: 335.00
+
+
+Symbol: AHPC
+Last Price: 205.00
+
+
+Symbol: AKJCL
+Last Price: 147.00
+
+
+Symbol: AKPL
+Last Price: 158.80
+
+
+Symbol: ALBSL
+Last Price: 560.00
+
+
+Symbol: ALICL
+Last Price: 616.00
+
+
+Symbol: ANLB
+Last Price: 1,550.00
+
+
+Symbol: API
+Last Price: 157.30
+
+
+Symbol: AVYAN
+Last Price: 609.90
+
+
+Symbol: BARUN
+Last Price: 209.90
+
+
+Symbol: BBC
+Last Price: 3,819.00
+
+
+Symbol: BEDC
+Last Price: 207.00
+
+
+Symbol: BFC
+Last Price: 287.10
+
+
+Symbol: BGWT
+Last Price: 432.00
+
+
+Symbol: BHDC
+Last Price: 343.90
+
+
+Symbol: BHL
+Last Price: 205.00
+
+
+Symbol: BHPL
+Last Price: 398.10
+
+
+Symbol: BNHC
+Last Price: 337.00
+
+
