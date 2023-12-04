@@ -13,6 +13,19 @@ SPIDER_MODULES = ['Testing.spiders']
 NEWSPIDER_MODULE = 'Testing.spiders'
 
 
+### Playwright settings
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+###
+
+
+
+
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Testing (+http://www.yourdomain.com)'
 
