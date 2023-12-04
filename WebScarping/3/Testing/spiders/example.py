@@ -10,7 +10,7 @@ class ExampleSpider(scrapy.Spider):
     start_urls = ['http://https://www.nepsealpha.com/nepse-data/']
 
     def start_requests(self):
-       yield scrapy.Request(self.start_urls,
+        yield scrapy.Request(self.start_urls,
                             meta=dict(
                                 playwright=True,
                                 playwright_include_page=True,
