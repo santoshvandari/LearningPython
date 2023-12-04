@@ -7,7 +7,7 @@ from pathlib import Path
 class ExampleSpider(scrapy.Spider):
     name = 'example'
     allowed_domains = ['https://www.nepsealpha.com/nepse-data']
-    start_urls = ['http://https://www.nepsealpha.com/nepse-data/']
+    start_urls = 'https://www.nepsealpha.com/nepse-data/'
 
     def start_requests(self):
         yield scrapy.Request(self.start_urls,
