@@ -1,36 +1,28 @@
 import scrapy
 from pathlib import Path
-
+from scrapy_playwright.page import PageMethod
 
 class IpoSpider(scrapy.Spider):
     name = 'ipo'
-    # allowed_domains = ['https://investornepal.com/upcoming-ipo/']
-    # start_urls = ['http://https://investornepal.com/upcoming-ipo//']
-    url='https://investornepal.com/upcoming-ipo/'
     def start_requests(self):
-        yield scrapy.Request(url=self.url)
+        yield scrapy.Request('https://sarallagani.com/investment-opportunity',meta=dict(
+            playwright=True,
+            playwright_include_page=True,
+            playwright_page_methods=[
+                PageMethod('wait_for_selector', 'table tbody.ant-table-tbody'),
+            ]
+        ))
 
-    def parse(self, response):
+    async def parse(self, response):
         filename = "data.html"
         Path(filename).write_bytes(response.body)
         self.log(f"Saved file {filename}")
-        table= response.css("#tablepress-UpcomingIPOs")
-        tablebody= table.css("tbody tr")
-        file = open("bookdata.txt", "a")
-        # for bookcard in bookcards:
-        # for row in tablebody:
-        for row in tablebody:
-            # print("**********")
-            # print(row)
-            symbol = row.css("td:nth-child(1)::text").get()
-            fullname= row.css("td:nth-child(2)::text").get()
-            totalunit= row.css("td:nth-child(3)::text").get()
-            openprice= row.css("td:nth-child(5)::text").get()
-            closeprice= row.css("td:nth-child(6)::text").get()
-            # title = table.css("h3 a::attr(title)").get()
-            # price = table.css(".price_color::text").get()
-            # rating = table.css(".star-rating::attr(class)").get().split(" ")[-1]+" stars"
-            if(openprice is not None and closeprice is not None):
-                file.write(f"Symbol: {symbol}\nFull Name: {fullname}\nTotal Unit: {totalunit}\nOpen Price: {openprice}\nClose Price: {closeprice}\n\n\n")
-        file.close()
+        tabledata=response.css('table tbody.ant-table-tbody tr')
+        with open('data.txt','w') as f:
+            for row in tabledata:
+                name=row.css('td:nth-child(1)::text').get()
+                opening=row.css('td:nth-child(5)::text').get()
+                closing=row.css('td:nth-child(6)::text').get()
+                status=row.css('td:nth-child(7)::text').get()
+                f.write(f'Name: {name}\nOpening Price: {opening}\nClosing Price: {closing}\n{status}\n\n\n\n')
 
