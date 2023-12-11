@@ -1,0 +1,175 @@
+Symbol: MKCL
+Full Name: Muktinath Krishi Company Limited
+Total Unit: 70,00,000
+Open Price: 2023-11-24
+Close Price: 2023-11-28
+
+
+Symbol: HFIL
+Full Name: Hotel Forest Inn Limited
+Total Unit: 9,800,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: SHPL
+Full Name: Solu Hydropower Limited
+Total Unit: 20,000,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: TAKSAR
+Full Name: Taksar Pikhuwa Khola Hydropower Limited
+Total Unit: 4,230,668.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: YAMBALING
+Full Name: Yambaling Hydropower Limited
+Total Unit: 2,800,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: APHL
+Full Name: Apex Hospitality Limited
+Total Unit: 2,400,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: MBEL
+Full Name: Mabilung Energy Limited
+Total Unit: 1,890,530.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: JAGDAMBA
+Full Name: Jagdamba Steels Limited
+Total Unit: 20,070,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: SYPNL
+Full Name: SY Panel Nepal Limited
+Total Unit: 5,232,548.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: BENI
+Full Name: Beni Hydropower Project Limited
+Total Unit: 2,080,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: RJCL
+Full Name: Richet Jalbidhyut Company Limited
+Total Unit: 1,176,450.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: SANVI
+Full Name: Sanvi Energy Limited
+Total Unit: 3,790,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: BJHL
+Full Name: Bhujung Hydropower Limited
+Total Unit: 1,455,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: DHEL
+Full Name: Daramkhola Hydro Energy Limited
+Total Unit: 3,950,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: IME
+Full Name: IME Limited
+Total Unit: 1,000,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: DMNL
+Full Name: Dish Media Network Limited
+Total Unit: 13,584,955.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: HSUCL
+Full Name: Him Star Urja Company Limited
+Total Unit: 1,119,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: SHP
+Full Name: Sanima Hydropower Limited
+Total Unit: 1,470,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: KTNL
+Full Name: Kantipur Television Network Limited
+Total Unit: 750,000.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: ACPL
+Full Name: Accord Pharmaceuticals limited
+Total Unit: 706,909.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: ULHC
+Full Name: Upper Lohore Khola Hydropower Company Limited
+Total Unit: 2,498,040.00
+Open Price: NA
+Close Price: NA
+
+
+Symbol: KBSHL
+Full Name: Kutheli Bukhari Small Hydropower Limited
+Total Unit: 243,675.00
+Open Price: 2023-06-02
+Close Price: 2023-07-02
+
+
+Symbol: NRML
+Full Name: Nepal Republic Media Limited
+Total Unit: 4,353,000.00
+Open Price: 2023-06-09
+Close Price: 2023-06-23
+
+
+Symbol: USYHL
+Full Name: Upper Syange Hydropower Limited
+Total Unit: 870,000.00
+Open Price: Coming Soon
+Close Price: Coming Soon
+
+
+Symbol: CITY
+Full Name: City Hotel Limited
+Total Unit: 1,355,940.00
+Open Price: 2023-05-08
+Close Price: 2023-05-22
+
+
