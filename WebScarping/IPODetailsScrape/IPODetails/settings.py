@@ -13,12 +13,32 @@ SPIDER_MODULES = ['IPODetails.spiders']
 NEWSPIDER_MODULE = 'IPODetails.spiders'
 
 
+
+### Playwright settings
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+###
+
+
+
+
+
+
+
+
+
+
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'IPODetails (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-# ROBOTSTXT_OBEY = True
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
+# ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
