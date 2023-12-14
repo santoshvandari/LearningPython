@@ -28,7 +28,7 @@ connectionString = "postgresql://postgres:rnR0uiDqNVWiBL1C@db.xirdbhvrdyarslorlu
 try:
     connection = psycopg2.connect(connectionString)
     cursor = connection.cursor()
-    # cursor.execute('truncate ipodetails;')
+    cursor.execute('truncate ipodetails;')
     print("Connected to PostgreSQL database successfully!")
 except Exception as e:
     print(f"Error connecting to database: {e}")
@@ -46,6 +46,7 @@ cursor.execute(query)
 result = cursor.fetchall()
 print(result)
 if result:
+    print("If Enter")
     for row in result:
         print(row[0])
         print(row[1])
@@ -53,6 +54,7 @@ if result:
         print(row[3])
         asyncio.run(OpeningIpo(row[0],row[1]))
 connection.commit()
+asyncio.run(OpeningIpo('Test','Test'))
 
 
 

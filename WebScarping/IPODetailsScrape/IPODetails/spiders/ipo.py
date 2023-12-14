@@ -31,6 +31,14 @@ class PwspiderSpider(scrapy.Spider):
                             )
                             )
     async def parse(self, response):
+        # Writing all the output in html file
+        # Path("output.html").write_text(await response.page.content())
+
+        filename = f"data.html"
+        Path(filename).write_bytes(response.body)
+        self.log(f"Saved file {filename}")
+
+
         tabledata= response.css('table tbody.ant-table-tbody tr')
         for data in tabledata:
             name = (data.css('td:nth-child(1)::text').get()).split('[')[0]
