@@ -1,0 +1,21 @@
+
+import requests
+from bs4 import BeautifulSoup 
+from selenium import webdriver 
+from selenium.webdriver.common.keys import Keys 
+import time 
+
+url = "https://sarallagani.com/investment-opportunity"
+
+driver = webdriver.Chrome('./geckodriver') 
+driver.get(url) 
+
+time.sleep(500) 
+
+html = driver.page_source 
+
+
+soup = BeautifulSoup(html, "html.parser")
+print(soup.prettify) 
+
+driver.close() 

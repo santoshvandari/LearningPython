@@ -1,0 +1,1460 @@
+Symbol: ACLBSL
+Last Price: 
+                                        516.00
+
+
+Symbol: ADBL
+Last Price: 
+                                        240.00
+
+
+Symbol: ADBLD83
+Last Price: 
+                                        1,010.00
+
+
+Symbol: AHL
+Last Price: 
+                                        345.00
+
+
+Symbol: AHPC
+Last Price: 
+                                        206.00
+
+
+Symbol: AKJCL
+Last Price: 
+                                        146.00
+
+
+Symbol: AKPL
+Last Price: 
+                                        161.50
+
+
+Symbol: ALBSL
+Last Price: 
+                                        557.00
+
+
+Symbol: ALICL
+Last Price: 
+                                        618.00
+
+
+Symbol: ANLB
+Last Price: 
+                                        1,551.20
+
+
+Symbol: API
+Last Price: 
+                                        157.00
+
+
+Symbol: AVYAN
+Last Price: 
+                                        591.00
+
+
+Symbol: BARUN
+Last Price: 
+                                        212.70
+
+
+Symbol: BBC
+Last Price: 
+                                        3,770.00
+
+
+Symbol: BEDC
+Last Price: 
+                                        212.90
+
+
+Symbol: BFC
+Last Price: 
+                                        291.30
+
+
+Symbol: BGWT
+Last Price: 
+                                        435.00
+
+
+Symbol: BHDC
+Last Price: 
+                                        344.50
+
+
+Symbol: BHL
+Last Price: 
+                                        210.40
+
+
+Symbol: BHPL
+Last Price: 
+                                        399.00
+
+
+Symbol: BNHC
+Last Price: 
+                                        343.00
+
+
+Symbol: BNT
+Last Price: 
+                                        11,211.00
+
+
+Symbol: BOKD86
+Last Price: 
+                                        835.00
+
+
+Symbol: BPCL
+Last Price: 
+                                        295.20
+
+
+Symbol: BPW
+Last Price: 
+                                        971.00
+
+
+Symbol: C30MF
+Last Price: 
+                                        7.72
+
+
+Symbol: CBBL
+Last Price: 
+                                        907.00
+
+
+Symbol: CBLD88
+Last Price: 
+                                        930.50
+
+
+Symbol: CFCL
+Last Price: 
+                                        316.90
+
+
+Symbol: CGH
+Last Price: 
+                                        1,056.00
+
+
+Symbol: CHCL
+Last Price: 
+                                        473.20
+
+
+Symbol: CHDC
+Last Price: 
+                                        900.90
+
+
+Symbol: CHL
+Last Price: 
+                                        209.10
+
+
+Symbol: CIT
+Last Price: 
+                                        1,957.00
+
+
+Symbol: CITY
+Last Price: 
+                                        561.00
+
+
+Symbol: CIZBD86
+Last Price: 
+                                        980.00
+
+
+Symbol: CLI
+Last Price: 
+                                        449.80
+
+
+Symbol: CMF1
+Last Price: 
+                                        8.11
+
+
+Symbol: CMF2
+Last Price: 
+                                        7.32
+
+
+Symbol: CORBL
+Last Price: 
+                                        320.20
+
+
+Symbol: CYCL
+Last Price: 
+                                        948.00
+
+
+Symbol: CZBIL
+Last Price: 
+                                        161.00
+
+
+Symbol: DDBL
+Last Price: 
+                                        684.00
+
+
+Symbol: DHPL
+Last Price: 
+                                        140.60
+
+
+Symbol: DLBS
+Last Price: 
+                                        597.00
+
+
+Symbol: DOLTI
+Last Price: 
+                                        213.00
+
+
+Symbol: DORDI
+Last Price: 
+                                        204.20
+
+
+Symbol: EBL
+Last Price: 
+                                        468.30
+
+
+Symbol: EBLD86
+Last Price: 
+                                        841.30
+
+
+Symbol: EDBL
+Last Price: 
+                                        296.20
+
+
+Symbol: EHPL
+Last Price: 
+                                        314.00
+
+
+Symbol: ENL
+Last Price: 
+                                        798.70
+
+
+Symbol: FMDBL
+Last Price: 
+                                        591.00
+
+
+Symbol: FOWAD
+Last Price: 
+                                        1,008.00
+
+
+Symbol: GBBD85
+Last Price: 
+                                        829.50
+
+
+Symbol: GBBL
+Last Price: 
+                                        368.00
+
+
+Symbol: GBILD86/87
+Last Price: 
+                                        809.00
+
+
+Symbol: GBIME
+Last Price: 
+                                        193.00
+
+
+Symbol: GBLBS
+Last Price: 
+                                        450.90
+
+
+Symbol: GCIL
+Last Price: 
+                                        427.00
+
+
+Symbol: GFCL
+Last Price: 
+                                        401.80
+
+
+Symbol: GHL
+Last Price: 
+                                        123.00
+
+
+Symbol: GIBF1
+Last Price: 
+                                        7.25
+
+
+Symbol: GILB
+Last Price: 
+                                        754.10
+
+
+Symbol: GLBSL
+Last Price: 
+                                        608.00
+
+
+Symbol: GLH
+Last Price: 
+                                        205.00
+
+
+Symbol: GMFBS
+Last Price: 
+                                        683.00
+
+
+Symbol: GMFIL
+Last Price: 
+                                        327.00
+
+
+Symbol: GRDBL
+Last Price: 
+                                        298.00
+
+
+Symbol: GUFL
+Last Price: 
+                                        513.90
+
+
+Symbol: GVL
+Last Price: 
+                                        350.00
+
+
+Symbol: GWFD83
+Last Price: 
+                                        1,080.00
+
+
+Symbol: HATHY
+Last Price: 
+                                        440.00
+
+
+Symbol: HBL
+Last Price: 
+                                        199.50
+
+
+Symbol: HDHPC
+Last Price: 
+                                        122.00
+
+
+Symbol: HDL
+Last Price: 
+                                        1,597.00
+
+
+Symbol: HEI
+Last Price: 
+                                        513.00
+
+
+Symbol: HHL
+Last Price: 
+                                        209.00
+
+
+Symbol: HIDCL
+Last Price: 
+                                        158.00
+
+
+Symbol: HIDCLP
+Last Price: 
+                                        99.90
+
+
+Symbol: HLBSL
+Last Price: 
+                                        549.00
+
+
+Symbol: HLI
+Last Price: 
+                                        414.90
+
+
+Symbol: HPPL
+Last Price: 
+                                        208.90
+
+
+Symbol: HURJA
+Last Price: 
+                                        216.00
+
+
+Symbol: ICFC
+Last Price: 
+                                        447.50
+
+
+Symbol: IGI
+Last Price: 
+                                        480.00
+
+
+Symbol: IHL
+Last Price: 
+                                        235.00
+
+
+Symbol: ILBS
+Last Price: 
+                                        583.00
+
+
+Symbol: ILI
+Last Price: 
+                                        507.00
+
+
+Symbol: JALPA
+Last Price: 
+                                        969.00
+
+
+Symbol: JBBL
+Last Price: 
+                                        275.00
+
+
+Symbol: JBLB
+Last Price: 
+                                        1,246.00
+
+
+Symbol: JFL
+Last Price: 
+                                        335.00
+
+
+Symbol: JOSHI
+Last Price: 
+                                        190.00
+
+
+Symbol: JSLBB
+Last Price: 
+                                        809.80
+
+
+Symbol: KBL
+Last Price: 
+                                        150.40
+
+
+Symbol: KBLD86
+Last Price: 
+                                        1,048.60
+
+
+Symbol: KBSH
+Last Price: 
+                                        768.90
+
+
+Symbol: KDBY
+Last Price: 
+                                        7.80
+
+
+Symbol: KDL
+Last Price: 
+                                        788.00
+
+
+Symbol: KEF
+Last Price: 
+                                        7.45
+
+
+Symbol: KKHC
+Last Price: 
+                                        180.00
+
+
+Symbol: KLBSL
+Last Price: 
+                                        670.00
+
+
+Symbol: KMCDB
+Last Price: 
+                                        562.90
+
+
+Symbol: KPCL
+Last Price: 
+                                        313.00
+
+
+Symbol: KRBL
+Last Price: 
+                                        275.60
+
+
+Symbol: KSBBL
+Last Price: 
+                                        291.10
+
+
+Symbol: LBBL
+Last Price: 
+                                        380.00
+
+
+Symbol: LEC
+Last Price: 
+                                        141.00
+
+
+Symbol: LEMF
+Last Price: 
+                                        8.53
+
+
+Symbol: LICN
+Last Price: 
+                                        1,388.00
+
+
+Symbol: LLBS
+Last Price: 
+                                        639.00
+
+
+Symbol: LSL
+Last Price: 
+                                        177.00
+
+
+Symbol: LUK
+Last Price: 
+                                        7.85
+
+
+Symbol: LVF2
+Last Price: 
+                                        7.70
+
+
+Symbol: MAKAR
+Last Price: 
+                                        240.00
+
+
+Symbol: MANDU
+Last Price: 
+                                        506.00
+
+
+Symbol: MBJC
+Last Price: 
+                                        259.60
+
+
+Symbol: MBL
+Last Price: 
+                                        184.90
+
+
+Symbol: MBLD2085
+Last Price: 
+                                        1,071.90
+
+
+Symbol: MCHL
+Last Price: 
+                                        242.10
+
+
+Symbol: MDB
+Last Price: 
+                                        392.00
+
+
+Symbol: MEHL
+Last Price: 
+                                        208.00
+
+
+Symbol: MEL
+Last Price: 
+                                        166.00
+
+
+Symbol: MEN
+Last Price: 
+                                        477.60
+
+
+Symbol: MERO
+Last Price: 
+                                        482.00
+
+
+Symbol: MFIL
+Last Price: 
+                                        498.20
+
+
+Symbol: MHCL
+Last Price: 
+                                        234.00
+
+
+Symbol: MHL
+Last Price: 
+                                        348.00
+
+
+Symbol: MHNL
+Last Price: 
+                                        187.80
+
+
+Symbol: MKHC
+Last Price: 
+                                        201.30
+
+
+Symbol: MKHL
+Last Price: 
+                                        252.50
+
+
+Symbol: MKJC
+Last Price: 
+                                        339.60
+
+
+Symbol: MKLB
+Last Price: 
+                                        545.60
+
+
+Symbol: MLBBL
+Last Price: 
+                                        692.00
+
+
+Symbol: MLBL
+Last Price: 
+                                        300.90
+
+
+Symbol: MLBS
+Last Price: 
+                                        595.00
+
+
+Symbol: MLBSL
+Last Price: 
+                                        1,589.00
+
+
+Symbol: MMF1
+Last Price: 
+                                        6.95
+
+
+Symbol: MMFDB
+Last Price: 
+                                        492.00
+
+
+Symbol: MMFDBP
+Last Price: 
+                                        278.00
+
+
+Symbol: MMKJL
+Last Price: 
+                                        280.00
+
+
+Symbol: MNBBL
+Last Price: 
+                                        376.90
+
+
+Symbol: MPFL
+Last Price: 
+                                        276.00
+
+
+Symbol: MSHL
+Last Price: 
+                                        349.90
+
+
+Symbol: MSLB
+Last Price: 
+                                        713.50
+
+
+Symbol: NABBC
+Last Price: 
+                                        355.90
+
+
+Symbol: NABIL
+Last Price: 
+                                        502.00
+
+
+Symbol: NADEP
+Last Price: 
+                                        483.90
+
+
+Symbol: NBF2
+Last Price: 
+                                        7.45
+
+
+Symbol: NBF3
+Last Price: 
+                                        7.09
+
+
+Symbol: NBL
+Last Price: 
+                                        236.50
+
+
+Symbol: NBLD87
+Last Price: 
+                                        817.00
+
+
+Symbol: NESDO
+Last Price: 
+                                        1,436.00
+
+
+Symbol: NFS
+Last Price: 
+                                        288.80
+
+
+Symbol: NGPL
+Last Price: 
+                                        197.00
+
+
+Symbol: NHDL
+Last Price: 
+                                        334.00
+
+
+Symbol: NHPC
+Last Price: 
+                                        130.20
+
+
+Symbol: NIBLGF
+Last Price: 
+                                        7.40
+
+
+Symbol: NIBLPF
+Last Price: 
+                                        9.18
+
+
+Symbol: NIBSF2
+Last Price: 
+                                        7.10
+
+
+Symbol: NICA
+Last Price: 
+                                        497.00
+
+
+Symbol: NICBF
+Last Price: 
+                                        8.23
+
+
+Symbol: NICFC
+Last Price: 
+                                        8.24
+
+
+Symbol: NICGF
+Last Price: 
+                                        8.71
+
+
+Symbol: NICL
+Last Price: 
+                                        779.00
+
+
+Symbol: NICLBSL
+Last Price: 
+                                        593.00
+
+
+Symbol: NICSF
+Last Price: 
+                                        8.29
+
+
+Symbol: NIFRA
+Last Price: 
+                                        185.00
+
+
+Symbol: NIL
+Last Price: 
+                                        801.60
+
+
+Symbol: NIMB
+Last Price: 
+                                        175.00
+
+
+Symbol: NLBBL
+Last Price: 
+                                        490.00
+
+
+Symbol: NLG
+Last Price: 
+                                        738.00
+
+
+Symbol: NLIC
+Last Price: 
+                                        653.00
+
+
+Symbol: NLICL
+Last Price: 
+                                        560.00
+
+
+Symbol: NMB
+Last Price: 
+                                        195.00
+
+
+Symbol: NMB50
+Last Price: 
+                                        9.18
+
+
+Symbol: NMBD87/88
+Last Price: 
+                                        831.10
+
+
+Symbol: NMBMF
+Last Price: 
+                                        467.00
+
+
+Symbol: NMFBS
+Last Price: 
+                                        935.00
+
+
+Symbol: NRIC
+Last Price: 
+                                        610.00
+
+
+Symbol: NRM
+Last Price: 
+                                        233.90
+
+
+Symbol: NRN
+Last Price: 
+                                        311.70
+
+
+Symbol: NSIF2
+Last Price: 
+                                        8.63
+
+
+Symbol: NTC
+Last Price: 
+                                        858.00
+
+
+Symbol: NUBL
+Last Price: 
+                                        565.00
+
+
+Symbol: NYADI
+Last Price: 
+                                        198.90
+
+
+Symbol: OHL
+Last Price: 
+                                        764.00
+
+
+Symbol: PBD88
+Last Price: 
+                                        932.50
+
+
+Symbol: PBLD84
+Last Price: 
+                                        1,025.10
+
+
+Symbol: PCBL
+Last Price: 
+                                        190.00
+
+
+Symbol: PFL
+Last Price: 
+                                        332.50
+
+
+Symbol: PHCL
+Last Price: 
+                                        230.00
+
+
+Symbol: PMHPL
+Last Price: 
+                                        200.00
+
+
+Symbol: PPCL
+Last Price: 
+                                        204.00
+
+
+Symbol: PPL
+Last Price: 
+                                        214.50
+
+
+Symbol: PRIN
+Last Price: 
+                                        650.00
+
+
+Symbol: PROFL
+Last Price: 
+                                        281.00
+
+
+Symbol: PRSF
+Last Price: 
+                                        7.91
+
+
+Symbol: PRVU
+Last Price: 
+                                        156.70
+
+
+Symbol: PSF
+Last Price: 
+                                        7.46
+
+
+Symbol: RADHI
+Last Price: 
+                                        207.00
+
+
+Symbol: RAWA
+Last Price: 
+                                        373.10
+
+
+Symbol: RBCL
+Last Price: 
+                                        13,402.00
+
+
+Symbol: RBCLPO
+Last Price: 
+                                        10,530.00
+
+
+Symbol: RFPL
+Last Price: 
+                                        208.40
+
+
+Symbol: RHGCL
+Last Price: 
+                                        196.50
+
+
+Symbol: RHPL
+Last Price: 
+                                        243.50
+
+
+Symbol: RIDI
+Last Price: 
+                                        177.80
+
+
+Symbol: RLFL
+Last Price: 
+                                        318.70
+
+
+Symbol: RMF1
+Last Price: 
+                                        7.30
+
+
+Symbol: RNLI
+Last Price: 
+                                        467.00
+
+
+Symbol: RSDC
+Last Price: 
+                                        505.00
+
+
+Symbol: RURU
+Last Price: 
+                                        715.50
+
+
+Symbol: SABSL
+Last Price: 
+                                        570.00
+
+
+Symbol: SADBL
+Last Price: 
+                                        269.00
+
+
+Symbol: SAEF
+Last Price: 
+                                        9.11
+
+
+Symbol: SAGF
+Last Price: 
+                                        7.85
+
+
+Symbol: SAHAS
+Last Price: 
+                                        446.00
+
+
+Symbol: SALICO
+Last Price: 
+                                        665.00
+
+
+Symbol: SAMAJ
+Last Price: 
+                                        122.00
+
+
+Symbol: SANIMA
+Last Price: 
+                                        235.30
+
+
+Symbol: SAPDBL
+Last Price: 
+                                        227.90
+
+
+Symbol: SBCF
+Last Price: 
+                                        7.85
+
+
+Symbol: SBI
+Last Price: 
+                                        290.00
+
+
+Symbol: SBL
+Last Price: 
+                                        231.00
+
+
+Symbol: SBLD2082
+Last Price: 
+                                        998.00
+
+
+Symbol: SBLD83
+Last Price: 
+                                        1,034.00
+
+
+Symbol: SCB
+Last Price: 
+                                        507.20
+
+
+Symbol: SDLBSL
+Last Price: 
+                                        522.80
+
+
+Symbol: SEF
+Last Price: 
+                                        7.75
+
+
+Symbol: SFCL
+Last Price: 
+                                        271.00
+
+
+Symbol: SFEF
+Last Price: 
+                                        7.90
+
+
+Symbol: SFMF
+Last Price: 
+                                        9.22
+
+
+Symbol: SGHC
+Last Price: 
+                                        222.70
+
+
+Symbol: SGIC
+Last Price: 
+                                        465.00
+
+
+Symbol: SHEL
+Last Price: 
+                                        250.00
+
+
+Symbol: SHINE
+Last Price: 
+                                        355.40
+
+
+Symbol: SHIVM
+Last Price: 
+                                        467.80
+
+
+Symbol: SHL
+Last Price: 
+                                        422.00
+
+
+Symbol: SHLB
+Last Price: 
+                                        805.00
+
+
+Symbol: SHPC
+Last Price: 
+                                        311.90
+
+
+Symbol: SICL
+Last Price: 
+                                        733.00
+
+
+Symbol: SIFC
+Last Price: 
+                                        323.50
+
+
+Symbol: SIGS2
+Last Price: 
+                                        7.70
+
+
+Symbol: SIKLES
+Last Price: 
+                                        393.90
+
+
+Symbol: SINDU
+Last Price: 
+                                        249.90
+
+
+Symbol: SJCL
+Last Price: 
+                                        248.90
+
+
+Symbol: SJLIC
+Last Price: 
+                                        499.00
+
+
+Symbol: SKBBL
+Last Price: 
+                                        880.00
+
+
+Symbol: SLBBL
+Last Price: 
+                                        587.10
+
+
+Symbol: SLBSL
+Last Price: 
+                                        612.50
+
+
+Symbol: SLCF
+Last Price: 
+                                        7.05
+
+
+Symbol: SMATA
+Last Price: 
+                                        590.00
+
+
+Symbol: SMB
+Last Price: 
+                                        833.00
+
+
+Symbol: SMFBS
+Last Price: 
+                                        781.00
+
+
+Symbol: SMH
+Last Price: 
+                                        509.00
+
+
+Symbol: SMHL
+Last Price: 
+                                        337.00
+
+
+Symbol: SMJC
+Last Price: 
+                                        252.00
+
+
+Symbol: SNLI
+Last Price: 
+                                        473.00
+
+
+Symbol: SONA
+Last Price: 
+                                        300.20
+
+
+Symbol: SPC
+Last Price: 
+                                        347.00
+
+
+Symbol: SPDL
+Last Price: 
+                                        171.00
+
+
+Symbol: SPHL
+Last Price: 
+                                        400.00
+
+
+Symbol: SPIL
+Last Price: 
+                                        697.10
+
+
+Symbol: SPL
+Last Price: 
+                                        698.00
+
+
+Symbol: SRBLD83
+Last Price: 
+                                        1,004.50
+
+
+Symbol: SRD80
+Last Price: 
+                                        1,005.00
+
+
+Symbol: SRLI
+Last Price: 
+                                        450.00
+
+
+Symbol: SSHL
+Last Price: 
+                                        138.00
+
+
+Symbol: STC
+Last Price: 
+                                        5,000.00
+
+
+Symbol: SWBBL
+Last Price: 
+                                        716.00
+
+
+Symbol: SWMF
+Last Price: 
+                                        560.00
+
+
+Symbol: TAMOR
+Last Price: 
+                                        245.40
+
+
+Symbol: TPC
+Last Price: 
+                                        360.00
+
+
+Symbol: TSHL
+Last Price: 
+                                        390.00
+
+
+Symbol: UAIL
+Last Price: 
+                                        530.00
+
+
+Symbol: UHEWA
+Last Price: 
+                                        278.50
+
+
+Symbol: ULBSL
+Last Price: 
+                                        964.00
+
+
+Symbol: ULHC
+Last Price: 
+                                        224.10
+
+
+Symbol: UMHL
+Last Price: 
+                                        178.00
+
+
+Symbol: UMRH
+Last Price: 
+                                        278.80
+
+
+Symbol: UNHPL
+Last Price: 
+                                        164.00
+
+
+Symbol: UNL
+Last Price: 
+                                        41,499.00
+
+
+Symbol: UNLB
+Last Price: 
+                                        962.00
+
+
+Symbol: UPCL
+Last Price: 
+                                        180.00
+
+
+Symbol: UPPER
+Last Price: 
+                                        196.20
+
+
+Symbol: USHEC
+Last Price: 
+                                        242.50
+
+
+Symbol: USHL
+Last Price: 
+                                        331.00
+
+
+Symbol: USLB
+Last Price: 
+                                        668.90
+
+
+Symbol: VLBS
+Last Price: 
+                                        599.90
+
+
+Symbol: WNLB
+Last Price: 
+                                        700.00
+
+
