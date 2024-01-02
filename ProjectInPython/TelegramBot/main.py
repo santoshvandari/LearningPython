@@ -52,7 +52,7 @@ if result:
         print(row[1])
         print(row[2])
         print(row[3])
-        asyncio.run(OpeningIpo(row[0],row[1]))
+        asyncio.run(OpeningIpo((row[0]).strip(),(row[1])).strip())
 connection.commit()
 asyncio.run(OpeningIpo('Test','Test'))
 
@@ -74,5 +74,5 @@ if result:
         print(row[1])
         print(row[2])
         print(row[3])
-        asyncio.run(ClosingIpo(row[0],row[1]))
+        asyncio.run(ClosingIpo((row[0]).strip(),(row[1])).strip())
 connection.commit()
