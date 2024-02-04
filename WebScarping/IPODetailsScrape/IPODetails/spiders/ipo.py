@@ -1,8 +1,9 @@
 import scrapy
 import psycopg2
 import datetime
-from scrapy_playwright.page import PageMethod
+# from scrapy_playwright.page import PageMethod
 
+# connectionString = "postgres://postgres.xirdbhvrdyarslorlufu:9XEq4EPhvJzDXfA7@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
 class PwspiderSpider(scrapy.Spider):
     name = 'ipo'
     allowed_domains = ['nepsebajar.com']
@@ -13,7 +14,7 @@ class PwspiderSpider(scrapy.Spider):
         self.connection = None
         try:
             self.connection = psycopg2.connect(
-                "postgresql://postgres:rnR0uiDqNVWiBL1C@db.xirdbhvrdyarslorlufu.supabase.co:5432/postgres"
+                "postgres://postgres.xirdbhvrdyarslorlufu:9XEq4EPhvJzDXfA7@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
             )
             self.cursor = self.connection.cursor()
             self.cursor.execute('DELETE FROM ipoinfodetails;')
@@ -25,21 +26,17 @@ class PwspiderSpider(scrapy.Spider):
 
     def start_requests(self):
         yield scrapy.Request(
-            'https://www.nepsebajar.com/ipo-pipelinewewe',
-            meta=dict(
-                playwright=True,
-                playwright_include_page=True,
-                playwright_page_methods=[
-                    PageMethod('wait_for_selector', 'table.display.table-bordered.mb-5 tbody tr', timeout=60000),
-                ]   
-            )
+            'https://www.nepsebajar.com/ipo-pipelinewewe', callback=self.parse
         )
 
     async def parse(self, response):
         date = datetime.date.today()
         table_data = response.css('table#example tbody tr')
-
+        counter = 0
         for data in table_data:
+            if counter>=11:
+                break
+            counter += 1
             company_name = (data.css('td:nth-child(1) a::text').get()).strip()
             symbol = (data.css('td:nth-child(2) a::text').get()).strip()
             total_issue_unit = int(data.css('td:nth-child(3)::text').get())
