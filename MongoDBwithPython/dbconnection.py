@@ -3,7 +3,7 @@ from pymongo import MongoClient
 def get_db_connection():
     try:
         client = MongoClient('localhost', 27017,)
-        db = client.testdb
+        db = client.userdata
         print("Connected to MongoDB")
         return db
     except Exception as e:
